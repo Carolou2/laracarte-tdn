@@ -1,4 +1,4 @@
-@extends('layouts.default')
+@extends('layouts.default', ['title'=>'About'])
 
 @section('content')
     <div class="container">
@@ -11,7 +11,7 @@
                             This app has been built by <a href="https://twitter.com/etsmo" >@etsmo</a> for learning purposes.</strong></p>
             </div>
         </div>
-        <p>Feel free to help to improve the <a href="#">source code</a>.</p>
+        <p>Feel free to help to improve the <a href="https://github.com/Carolou2/laracarte-tdn">source code</a>.</p>
 
         <hr>
 

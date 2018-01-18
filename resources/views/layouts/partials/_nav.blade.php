@@ -12,7 +12,7 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav ">
-                <li class="active" ><a href="{{route('root_path')}}">Home</a> </li>
+                <li><a href="{{route('root_path')}}">Home</a> </li>
                 <li><a href="{{route('about_path')}}">About</a> </li>
                 <li ><a href="#">Artisans</a> </li>
                 <li class="dropdown">
